@@ -10,7 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 // mongouri
-// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@myclaster-1.wxhqp81.mongodb.net/assignmentdb?retryWrites=true&w=majority`;
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_USER}@cluster0.mkpcxwu.mongodb.net/assignmentdb?retryWrites=true&w=majority`;
 
 // Define MongoDB client outside the run function so we can reuse it.
